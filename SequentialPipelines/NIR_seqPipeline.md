@@ -28,11 +28,11 @@ Merge the input catalogs
 
     python3 2_EuclidTU.py >& EuclidTU.log
 
-## Step 4 : Euclid Vis Splitter
+## Step 4 : Euclid NIP Splitter
 
 Split in jobs by detectors 
 
-    python3 3_EuclidVisSplit.py >& EuclidVisSplit.log
+    python3 3_EuclidNipSplit.py >& EuclidNipSplit.log
 
 What files / directories are created ?
 Differences with VIS ?
@@ -43,7 +43,7 @@ Run the simulation.
 
 WARNING : runtime ~ 15mn ! Check the logs (tail EuclidVisDetector.log)
 
-    python3 4_EuclidVisDetector.py >& EuclidVisDetector.log
+    python3 4_EuclidNipDetector.py >& EuclidNipDetector.log
 
 Where are the outputs ? What king of outputs do you get.
 
