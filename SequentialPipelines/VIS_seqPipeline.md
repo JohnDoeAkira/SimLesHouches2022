@@ -34,9 +34,10 @@ Try to match these scripts with the functions of the pipeline description sim_ia
 
 ## Running the pipeline
 
-Copy the processing elements helper scripts in your workdir : 
+Copy the processing elements helper scripts in your workdir (+ SimRequest) : 
 
     cp /sps/training/hudelot/VIS/workdir/?_*py .
+    cp sps/training/hudelot/VIS/workdir/SIM_REQ_C13_PILOT_3.xml .
 
 Read the scripts before running them to understand their interface (inputs / outputs).
 

@@ -6,9 +6,11 @@ See [VIS pipeline](./VIS_seqPipeline.md). Same structure and inputs.
 
 ## Running the pipeline
 
-Copy the processing elements helper scripts in your workdir : 
+Copy the processing elements helper scripts in your workdir (+ SimRequest) : 
 
     cp /sps/training/hudelot/NIR/workdir/?_*py .
+    cp /sps/training/hudelot/NIR/workdir/SIM_REQ_NIP_C13_PILOT_2.xml .
+
 
 Read the scripts before running them to understand their interface (inputs / outputs).
 
