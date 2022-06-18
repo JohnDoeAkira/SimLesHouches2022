@@ -13,7 +13,7 @@ All of the inputs are stored in the workdir. In production, the workdir is creat
 
 ### Processing elements
 
-In production the pipeline is executed by the PipelineRunner following the instructions contained in the sim_ial_pipeline _PipScript_SIM_Splitted.py_ file.
+In VISproduction the pipeline is executed by the PipelineRunner following the instructions contained in the sim_ial_pipeline _PipScript_SIM_Splitted.py_ file.
 Here we will execute each step manually.
 The only difference is the automation.
 * SimPlanner : Split the SimRequest by pointing 
