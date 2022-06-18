@@ -12,16 +12,16 @@ the pipeline sequentially to produce a single detector for each channel.
 
 # VIS pipeline
 
-[VIS pipeline]((./SequentialPipelines/VIS_SeqPipeline.md))
+[VIS pipeline](./SequentialPipelines/VIS_seqPipeline.md)
 
 # NIR pipeline
 
-[NIR pipeline]((./SequentialPipelines/NIR_SeqPipeline.md))
+[NIR pipeline]((./SequentialPipelines/NIR_seqPipeline.md))
 
 # NIS pipeline
 
-[NIS pipeline]((./SequentialPipelines/NIS_SeqPipeline.md))
+[NIS pipeline]((./SequentialPipelines/NIS_seqPipeline.md))
 
 # EXT pipeline
 
-[EXT pipeline]((./SequentialPipelines/EXT_SeqPipeline.md))
+[EXT pipeline]((./SequentialPipelines/EXT_seqPipeline.md))
