@@ -1,6 +1,36 @@
-## Prerequisites
+# Prerequisites
 
-### Codes directory
+## Working at CC-IN2P3
+
+### Login
+
+We will be using the french SDC (science data center) for the hand's on session. This is a computer grid in Lyon 
+operated by the in2p3 (particle physics department of CNRS). You have received temporary username/password to connect 
+to the CC. To connect by ssh :
+
+    ssh -Y <user>@cca.in2p3.fr
+
+### Interactive jobs
+
+When doing so, you are logged on a login node that is not suitable for heavy computing. To perform CPU, I/O intensive 
+tasks you will need to log on computing nodes. We will use interactive jobs instead of batch jobs for this session. 
+Hereafter is an example of a interactive job request on 3 cores for a walltime of 3 hours (in bash). 
+
+    srun --account=training --reservation=training_67 -n 3 --time=3:00:00 --pty bash -i
+
+### Ressources 
+
+CC has booked two servers for us during two weeks. This should be enough for 3 to 4 cores each. 
+Regarding disk volumes, we will work on /sps/training. The disk space should not be an issue.
+
+### Documentation
+
+To get more familiar with the CC, you can have a look at these tutorials :
+
+    https://gitlab.in2p3.fr/ccin2p3-support/formations/batch/2022.02/tuto_batch/-/tree/master
+
+
+## Codes directory
 
 First create a directory of your own for the cloned codes.
 The working directory of the temporary account is */sps/training*. Then you need to create you own :
