@@ -13,19 +13,19 @@ You can copy these wordir on your local directory abd run them by adapting the s
 
 ## VIS Bias
 
-The example wordfir with the PPO is there : 
+The example workfir with the PPO is there : 
 
     /sps/training/hudelot/Calib_PPOs/VIS/VIS_Bias
 
 ## VIS Dark
 
-he example wordfir with the PPO is there : 
+The example workdir with the PPO is there : 
 
     /sps/training/hudelot/Calib_PPOs/VIS/VIS_Dark
 
 ## VIS Fla
 
-the example wordfir with the PPO is there : 
+The example workfir with the PPO is there : 
 
     /sps/training/hudelot/Calib_PPOs/VIS/VIS_Flat
 
