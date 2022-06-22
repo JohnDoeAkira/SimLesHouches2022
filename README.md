@@ -25,3 +25,9 @@ the pipeline sequentially to produce a single detector for each channel.
 # EXT pipeline
 
 [EXT pipeline](./SequentialPipelines/EXT_seqPipeline.md)
+
+# Calibration images (mostly VIS for now)
+
+[VIS calibration](./CalibrationImages/VIS_calib.md)
+
+
