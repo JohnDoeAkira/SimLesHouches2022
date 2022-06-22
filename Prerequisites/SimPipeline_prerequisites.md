@@ -105,7 +105,8 @@ Then you can "clone" the PPO workdir in your local directory (with links to all 
 
 ### Copy the PPO workdir if you don't have a Euclid account
 
-If you do not have an official Euclid account you can copy this directory (warning ... it's big !)
+If you do not have an official Euclid account you can copy this directory (warning ... it's big !).
+If you can, please copy everything but the workdir/data directory into your workdir, then create an empty data directory, and lik all individual elements of  /sps/training/hudelot/ClonePPO/ClonePPO_VIS_C13/workdir/data in your data directory. This would avoid the copy and only link the content of the data directory.
 	
 	/sps/training/hudelot/ClonePPO/ClonePPO_VIS_C13
 	
