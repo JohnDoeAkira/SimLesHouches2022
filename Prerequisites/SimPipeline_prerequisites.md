@@ -106,6 +106,9 @@ Then you can "clone" the PPO workdir in your local directory (with links to all 
 ### Copy the PPO workdir if you don't have a Euclid account
 
 If you do not have an official Euclid account you can copy this directory (warning ... it's big !)
+	
+	/sps/training/hudelot/ClonePPO/ClonePPO_VIS_C13
+	
 The final directory tree is :
 
     .
