@@ -101,4 +101,4 @@ WARNING : runtime ~ 15mn ! Check the logs (tail EuclidVisDetector.log)
 Run the actual images simulation.
 
 Where are the outputs ? What king of outputs do you get.
-Open the FITS images with ds9.
+Open the FITS images with ds9 (copy the outputVIS.gz file locally before opening with ds9)
